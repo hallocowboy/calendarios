@@ -1,0 +1,101 @@
+body {
+font-family: sans-serif;
+background-color: #95E1FF;
+}
+
+h1 {
+font-size: 30px;
+}
+
+.calendario {
+background-color: lightyellow;
+border: 1px solid black;
+padding: 10px 10px;
+margin: 10px;
+width: 52%;
+}
+
+.calendario table {
+margin: auto;
+}
+
+.enero table {
+border-collapse: collapse;
+font-size: 14px;
+}
+
+.enero caption {
+font-style: oblique;
+letter-spacing: 5px;
+font-weight: 800;
+}
+
+.enero td {
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+padding: 1px 15px;
+text-align: center;
+}
+
+.febrero table {
+border-collapse: collapse;
+}
+
+.febrero caption {
+text-align: right;
+font-size: 15px;
+font-weight: 800;
+}
+
+.febrero th {
+border-left: 1px solid black;
+border-right: 1px solid black;
+font-weight: 800;
+text-align: right;
+padding: 0px 5px;
+font-size: 14px;
+}
+
+.febrero td {
+border-left: 1px solid black;
+border-right: 1px solid black;
+padding: 1px 5px;
+text-align: right;
+font-weight: 500;
+font-size: 23px;
+}
+
+.marzo td {
+border: 1px solid black;
+}
+
+
+.marzo table {
+border-collapse: collapse;
+}
+
+.marzo caption {
+letter-spacing: 10px;
+text-align: left;
+font-size: 15px;
+padding: 5px;
+}
+
+.marzo th {
+border: 1px solid black;
+font-weight: 800;
+text-align: center;
+padding: 0px 5px;
+font-size: 14px;
+}
+
+.marzo td {
+border: 0.5px solid black;
+vertical-align: top;
+padding: 5px;
+text-align: left;
+font-weight: 500;
+font-size: 10px;
+height: 40px;
+width: 40px;
+}
